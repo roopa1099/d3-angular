@@ -1,0 +1,25 @@
+.left {
+
+    
+    list-style: none;
+  
+
+}
+
+.right {
+
+    
+    list-style: none;
+    padding-left: 0px;
+}
+
+.container {
+    display: flex;
+}
+
+li { background: cornsilk; 
+    width: 100%;
+    height: 60px;}
+li:nth-child(odd) { background: cornflowerblue }
+
+ul{overflow-x:scroll;}
